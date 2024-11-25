@@ -1,6 +1,10 @@
 # emoji-patch
 A couple scripts to export and then import the contents of a Plex DB.
 
+These scripts are adapted from another called `pumpanddump,sh` that exported and rebuilt the DB in one go.  I split it in two and did a little refactoring.
+
+That script was written by the guys at [REDACTED].
+
 ## What is this for?
 
 Recent version of Plex have problems with labels containing emoji.  Such labels can be *set*, but _cannot be removed_ either via the API [including the Plex UI] or a script.
